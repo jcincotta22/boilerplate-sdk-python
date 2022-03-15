@@ -1,6 +1,5 @@
 from src.api.card import Card
 
-
 class DrawnCards(object):
     def __init__(self, cards: list[Card], deck_id: str, remaining: int):
         self.cards = cards

@@ -4,7 +4,6 @@ from src.api.deck import Deck
 from src.api.drawncards import DrawnCards
 from src.api.fetchcache import FetchCache
 
-
 class ApiClient(object):
     def __init__(self, key: str, **options):
         self.__key = key
